@@ -664,11 +664,19 @@ ul.messages li .avatar img {
 	border-radius:50%;
 }
 
-.kamijo {
+.square-left {
+    float: left;
     border: 4px solid #82636b;
-    border-radius: 140px 15px 185px 15px / 15px 200px 15px 185px;
-    margin: 2em 0;
-    padding: 2em;
+    margin: 0em 0;
+    padding: 0.8em;
+
+}
+
+.square-right {
+    float: right;
+    border: 4px solid #82636b;
+    margin: 0em 0;
+    padding: 0.8em;
 
 }
 
@@ -1418,7 +1426,7 @@ ul.chat {
 ul.chat li {
 	list-style: none;
 	padding: 5px 0;
-	margin: 20px auto;
+	margin: 46px auto;
 	font-size: 12px;
 }
 
@@ -1453,7 +1461,7 @@ ul.chat li .message {
 
 ul.chat li.left .message {
 	text-align: left;
-	margin-left: 90px;
+	margin-left: 120px;
 	background: #fff 
 }
 
@@ -1479,7 +1487,7 @@ ul.chat li.right .message .arrow {
 
 ul.chat li.right .message {
 	text-align: right;
-	margin-right: 95px;
+	margin-right: 128px;
 	background: #fcfcfc;
 }
 
