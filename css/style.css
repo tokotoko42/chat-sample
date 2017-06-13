@@ -1425,7 +1425,7 @@ ul.chat {
 
 ul.chat li {
 	list-style: none;
-	padding: 5px 0;
+	padding: 0px 0;
 	margin: 46px auto;
 	font-size: 12px;
 }
@@ -1461,7 +1461,7 @@ ul.chat li .message {
 
 ul.chat li.left .message {
 	text-align: left;
-	margin-left: 120px;
+	margin-left: 10px;
 	background: #fff 
 }
 
@@ -1487,7 +1487,7 @@ ul.chat li.right .message .arrow {
 
 ul.chat li.right .message {
 	text-align: right;
-	margin-right: 128px;
+	margin-right: 10px;
 	background: #fcfcfc;
 }
 
