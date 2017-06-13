@@ -465,14 +465,29 @@
 						</ul>
 						<div class="chat-form black">
 							<textarea></textarea>
-              保有株式数<br>
+							保有株式数<br>
 							<div class="controls">
-                <button id="toggle-delete" class="btn btn-small btn-primary">0株</button>
-                <button id="toggle-show" class="btn btn-small btn-danger">100株-500株</button>
-                <button id="toggle-show" class="btn btn-small btn-warning">500株-1000株</button>
-                <button id="toggle-show" class="btn btn-small btn-success">1000株-5000株</button>
-                <button id="toggle-show" class="btn btn-small btn-success">5000株-10000株</button>
-                <button id="toggle-show" class="btn btn-small btn-success">10000株以上</button>
+								<button id="toggle-delete" class="btn btn-small btn-primary">0株</button>
+								<button class="toggle-show btn btn-small btn-danger">100株-500株</button>
+								<button class="toggle-show btn btn-small btn-warning">500株-1000株</button>
+								<button class="toggle-show btn btn-small btn-success">1000株-5000株</button>
+								<button class="toggle-show btn btn-small btn-success">5000株-10000株</button>
+								<button class="toggle-show btn btn-small btn-success">10000株以上</button>
+							</div>
+							<br>
+							<div class="controls">
+								<div id="target" class="btn-group">
+									<select class="btn btn-primary">
+										<option value="saikou">----------  保有期間  -----------</option>
+										<option value="hutuu">１日</option>
+										<option value="botiboti">１週間以内</option>
+										<option value="saiaku">１ヶ月以内</option>
+										<option value="saiaku">半年以内</option>
+										<option value="saiaku">１年以内</option>
+										<option value="saiaku">５年以内</option>
+										<option value="saiaku">５年以上</option>
+									</select>
+								</div>
 								<select class="btn btn-primary">
 									<option value="saikou">----------  売買感情  -----------</option>
 									<option value="hutuu">全力で買いたい</option>
@@ -482,22 +497,7 @@
 									<option value="saiaku">全て売りたい</option>
 								</select>
 							</div>
-              <br>
-							<div class="controls">
-							<div id="target" class="btn-group">
-								<select class="btn btn-primary">
-									<option value="saikou">----------  保有期間  -----------</option>
-									<option value="hutuu">１日</option>
-									<option value="botiboti">１週間以内</option>
-									<option value="saiaku">１ヶ月以内</option>
-									<option value="saiaku">半年以内</option>
-									<option value="saiaku">１年以内</option>
-									<option value="saiaku">５年以内</option>
-									<option value="saiaku">５年以上</option>
-								</select>
-							</div>
-							</div>
-              <br>
+							<br>
 							<button class="btn btn-warning">Send message</button>
 						</div>	
 					</div>

@@ -5,7 +5,7 @@ $('#toggle-delete').on('click', function() {
     $('#target').hide('slow');
 });
 
-$('#toggle-show').on('click', function() {
+$('.toggle-show').on('click', function() {
     $('#target').show('slow');
 });
 
