@@ -465,16 +465,14 @@
 						</ul>
 						<div class="chat-form black">
 							<textarea></textarea>
+              保有株式数<br>
 							<div class="controls">
-								<select class="btn btn-success">
-									<option value="saikou">----------  保有株式数  -----------</option>
-									<option value="hutuu">0株</option>
-									<option value="botiboti">100株 - 500株</option>
-									<option value="saiaku">500株 - 1000株</option>
-									<option value="saiaku">1000株 - 3000株</option>
-									<option value="saiaku">3000株 - 10000株</option>
-									<option value="saiaku">10000株以上</option>
-								</select>
+                <button id="toggle-delete" class="btn btn-small btn-primary">0株</button>
+                <button id="toggle-show" class="btn btn-small btn-danger">100株-500株</button>
+                <button id="toggle-show" class="btn btn-small btn-warning">500株-1000株</button>
+                <button id="toggle-show" class="btn btn-small btn-success">1000株-5000株</button>
+                <button id="toggle-show" class="btn btn-small btn-success">5000株-10000株</button>
+                <button id="toggle-show" class="btn btn-small btn-success">10000株以上</button>
 								<select class="btn btn-primary">
 									<option value="saikou">----------  売買感情  -----------</option>
 									<option value="hutuu">全力で買いたい</option>
@@ -484,19 +482,9 @@
 									<option value="saiaku">全て売りたい</option>
 								</select>
 							</div>
+              <br>
 							<div class="controls">
-								<select class="btn btn-success">
-									<option value="saikou">--------  株式運用資金  ---------</option>
-									<option value="hutuu">0円 - 10万</option>
-									<option value="botiboti">10万 - 100万</option>
-									<option value="botiboti">100万 - 500万</option>
-									<option value="botiboti">500万 - 1000万</option>
-									<option value="saiaku">1000万 - 2000万</option>
-									<option value="saiaku">2000万 - 3000万</option>
-									<option value="botiboti">3000万 - 5000万</option>
-									<option value="saiaku">5000万 - 1億</option>
-									<option value="saiaku">1億以上</option>
-								</select>
+							<div id="target" class="btn-group">
 								<select class="btn btn-primary">
 									<option value="saikou">----------  保有期間  -----------</option>
 									<option value="hutuu">１日</option>
@@ -508,6 +496,8 @@
 									<option value="saiaku">５年以上</option>
 								</select>
 							</div>
+							</div>
+              <br>
 							<button class="btn btn-warning">Send message</button>
 						</div>	
 					</div>

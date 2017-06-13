@@ -1,5 +1,14 @@
 /* -------------------- Check Browser --------------------- */
 
+$("#target").css("display", "none");
+$('#toggle-delete').on('click', function() {
+    $('#target').hide('slow');
+});
+
+$('#toggle-show').on('click', function() {
+    $('#target').show('slow');
+});
+
 function browser() {
 	
 	var isOpera = !!(window.opera && window.opera.version);  // Opera 8.0+
